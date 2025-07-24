@@ -5,7 +5,7 @@ const steps = [
   {
     icon: User,
     title: "Choose a Genre",
-    description: "Pick from 6 types stories, adventure, fantasy, mystery and more to set the perfect mood for bedtime.",
+    description: "Pick from 6 themes, adventure, fantasy, mystery, etc to set the perfect mood for bedtime.",
     step: "01"
   },
   {
