@@ -60,7 +60,7 @@ const features = [
 
 const FeaturesSection = () => {
   return (
-    <div className="py-24 px-4 bg-[#f7f7f7]">
+    <div className="py-24 px-4 gradient-card">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
@@ -76,7 +76,7 @@ const FeaturesSection = () => {
           {features.map((feature, index) => (
             <Card 
               key={index} 
-              className="p-6 gradient-card border-none shadow-soft hover:shadow-dreamy transition-all duration-300 hover:-translate-y-2"
+              className="p-6 bg-white border-none shadow-soft hover:shadow-dreamy transition-all duration-300 hover:-translate-y-2"
             >
               <div className="mb-4">
                 <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mb-4">
