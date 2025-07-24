@@ -112,20 +112,20 @@ Last updated: July 2024`;
             
             {/* Social Media Icons */}
             <div className="flex space-x-4">
-              <a href="#" className="text-background/60 hover:text-cabo-teal transition-colors">
-                <Facebook size={20} />
+              <a href="#" className="w-10 h-10 rounded-full bg-background/10 hover:bg-cabo-teal flex items-center justify-center text-background/60 hover:text-background transition-all duration-300">
+                <Facebook size={18} />
               </a>
-              <a href="#" className="text-background/60 hover:text-cabo-teal transition-colors">
-                <Twitter size={20} />
+              <a href="#" className="w-10 h-10 rounded-full bg-background/10 hover:bg-cabo-teal flex items-center justify-center text-background/60 hover:text-background transition-all duration-300">
+                <Twitter size={18} />
               </a>
-              <a href="#" className="text-background/60 hover:text-cabo-teal transition-colors">
-                <Instagram size={20} />
+              <a href="#" className="w-10 h-10 rounded-full bg-background/10 hover:bg-cabo-teal flex items-center justify-center text-background/60 hover:text-background transition-all duration-300">
+                <Instagram size={18} />
               </a>
-              <a href="#" className="text-background/60 hover:text-cabo-teal transition-colors">
-                <Youtube size={20} />
+              <a href="#" className="w-10 h-10 rounded-full bg-background/10 hover:bg-cabo-teal flex items-center justify-center text-background/60 hover:text-background transition-all duration-300">
+                <Youtube size={18} />
               </a>
-              <a href="#" className="text-background/60 hover:text-cabo-teal transition-colors">
-                <TikTokIcon size={20} />
+              <a href="#" className="w-10 h-10 rounded-full bg-background/10 hover:bg-cabo-teal flex items-center justify-center text-background/60 hover:text-background transition-all duration-300">
+                <TikTokIcon size={18} />
               </a>
             </div>
           </div>
