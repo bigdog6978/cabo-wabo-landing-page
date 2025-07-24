@@ -110,7 +110,7 @@ const PricingSection = () => {
           </Card>
         </div>
         
-        <div className="text-center mt-12 space-y-4">
+        <div className="hidden text-center mt-12 space-y-4">
           <div className="flex justify-center items-center space-x-4">
             <div className="flex items-center">
               <Star className="w-5 h-5 text-yellow-500 mr-1" />
