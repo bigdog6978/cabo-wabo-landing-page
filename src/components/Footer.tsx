@@ -73,6 +73,18 @@ By using the App, you acknowledge that you have read, understood, and agree to b
 
 Last updated: June 2025`;
 
+  const cookiePolicyContent = `CaboWabo uses cookies to improve your browsing experience and understand how our site is used. By continuing to use this site, you agree to our use of cookies.
+
+We use:
+• Essential cookies to enable site functionality.
+• Analytics cookies (e.g., Google Analytics) to measure usage and improve content.
+
+You can manage or delete cookies in your browser settings at any time.
+
+For more details, please see our Privacy Policy.
+
+Last updated: July 2024`;
+
   const handleModalOpen = (modalType: string) => {
     setActiveModal(modalType);
   };
@@ -123,6 +135,14 @@ Last updated: June 2025`;
               </li>
               <li>
                 <button 
+                  onClick={() => handleModalOpen('cookies')}
+                  className="hover:text-cabo-teal transition-colors text-left"
+                >
+                  Cookie Policy
+                </button>
+              </li>
+              <li>
+                <button 
                   onClick={() => handleModalOpen('terms')}
                   className="hover:text-cabo-teal transition-colors text-left"
                 >
@@ -153,6 +173,12 @@ Last updated: June 2025`;
         onClose={handleModalClose}
         title="Privacy Policy"
         content={privacyPolicyContent}
+      />
+      <LegalModal
+        isOpen={activeModal === 'cookies'}
+        onClose={handleModalClose}
+        title="Cookie Policy"
+        content={cookiePolicyContent}
       />
       <LegalModal
         isOpen={activeModal === 'terms'}
