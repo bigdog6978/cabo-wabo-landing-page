@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { Sparkles, Moon, Star } from "lucide-react";
+import { Sparkles, Moon, Star, Smartphone } from "lucide-react";
 import heroImage from "@/assets/hero-bedtime.jpg";
 
 const HeroSection = () => {
@@ -50,8 +50,8 @@ const HeroSection = () => {
         
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
           <Button variant="hero" size="lg" className="text-lg px-8 py-6 h-auto">
-            Download Free on App Store
-            <Sparkles className="w-5 h-5 ml-2" />
+            Download on the App Store
+            <Smartphone className="w-5 h-5 ml-2" />
           </Button>
           <Button variant="outline" size="lg" className="text-lg px-8 py-6 h-auto border-cabo-teal text-cabo-teal hover:bg-cabo-teal hover:text-white">
             Watch Demo
