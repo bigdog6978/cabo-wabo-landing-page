@@ -4,8 +4,8 @@ import { User, Wand2, BookOpen, Heart } from "lucide-react";
 const steps = [
   {
     icon: User,
-    title: "Describe Your Child",
-    description: "Tell us your child's name, age, interests, and favorite things to create their perfect character.",
+    title: "Choose a Genre",
+    description: "Pick from adventure, fantasy, mystery, or friendship stories to set the perfect mood for bedtime.",
     step: "01"
   },
   {
