@@ -1,5 +1,5 @@
 import { Card } from "@/components/ui/card";
-import { User, Wand2, BookOpen, Heart } from "lucide-react";
+import { User, Wand2, BookOpen, Heart, Zap } from "lucide-react";
 
 const steps = [
   {
@@ -21,9 +21,9 @@ const steps = [
     step: "03"
   },
   {
-    icon: Heart,
-    title: "Story Ready in Seconds!",
-    description: "Your personalized story appears instantly, perfectly crafted for your child's bedtime.",
+    icon: Zap,
+    title: "Lightning Fast!",
+    description: "Your personalized story is ready in a flash, perfectly crafted for your child's bedtime.",
     step: "04"
   }
 ];
