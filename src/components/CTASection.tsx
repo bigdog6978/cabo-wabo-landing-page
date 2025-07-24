@@ -52,7 +52,7 @@ const CTASection = () => {
             className="text-lg px-8 py-6 h-auto"
             onClick={() => setIsDialogOpen(true)}
           >
-            Download Free on App Store
+            Download on the Apple App Store
             <ArrowRight className="w-5 h-5 ml-2" />
           </Button>
           <Button variant="outline" size="lg" className="text-lg px-8 py-6 h-auto border-moonlight text-moonlight hover:bg-moonlight hover:text-night-sky">
