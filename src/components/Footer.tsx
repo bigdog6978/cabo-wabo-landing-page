@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Sparkles } from "lucide-react";
+import { Sparkles, Facebook, Twitter, Instagram, Youtube } from "lucide-react";
 import LegalModal from "./LegalModal";
 // Using the uploaded logo directly
 const caboWaboLogo = "/lovable-uploads/2ae20f8e-51bb-449e-80aa-e850451395d5.png";
@@ -105,9 +105,25 @@ Last updated: July 2024`;
                 className="h-8 w-auto"
               />
             </div>
-            <p className="text-background/80 max-w-md leading-relaxed">
+            <p className="text-background/80 max-w-md leading-relaxed mb-6">
               Creating magical, personalized bedtime stories that spark imagination and bring families closer together.
             </p>
+            
+            {/* Social Media Icons */}
+            <div className="flex space-x-4">
+              <a href="#" className="text-background/60 hover:text-cabo-teal transition-colors">
+                <Facebook size={20} />
+              </a>
+              <a href="#" className="text-background/60 hover:text-cabo-teal transition-colors">
+                <Twitter size={20} />
+              </a>
+              <a href="#" className="text-background/60 hover:text-cabo-teal transition-colors">
+                <Instagram size={20} />
+              </a>
+              <a href="#" className="text-background/60 hover:text-cabo-teal transition-colors">
+                <Youtube size={20} />
+              </a>
+            </div>
           </div>
           
           <div>
