@@ -30,7 +30,7 @@ const HeroSection = () => {
           <img 
             src="/lovable-uploads/cff4a35b-daac-4cfa-a154-02d5bfc1ade6.png" 
             alt="CaboWabo" 
-            className="h-16 md:h-20 w-auto mx-auto mb-4 animate-fade-in"
+            className="h-16 md:h-20 w-auto mx-auto mb-4 animate-fade-in drop-shadow-lg"
           />
         </div>
         
