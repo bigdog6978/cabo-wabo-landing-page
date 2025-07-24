@@ -17,7 +17,7 @@ const StoryPreviewSection = () => {
         
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           {/* Phone Mockup Image */}
-          <div className="flex justify-center items-center h-144">
+          <div className="flex justify-center items-center h-[500px]">
             <img 
               src="/lovable-uploads/12e610c9-16c9-45ea-9d79-abfcb3f3c15f.png" 
               alt="CaboWabo app showing Your Library with David's personalized stories collection"
