@@ -1,9 +1,19 @@
 import { Button } from "@/components/ui/button";
-import { Sparkles, ArrowRight } from "lucide-react";
+import { Sparkles, ArrowRight, Star, Moon } from "lucide-react";
 
 const CTASection = () => {
   return (
-    <div className="py-24 px-4 gradient-hero">
+    <div className="relative py-24 px-4 gradient-hero overflow-hidden">
+      {/* Floating Elements */}
+      <div className="absolute top-20 left-10 animate-float">
+        <Star className="w-6 h-6 text-cabo-teal animate-glow" />
+      </div>
+      <div className="absolute top-32 right-20 animate-float" style={{ animationDelay: "2s" }}>
+        <Moon className="w-8 h-8 text-starlight animate-glow" />
+      </div>
+      <div className="absolute bottom-32 left-20 animate-float" style={{ animationDelay: "4s" }}>
+        <Sparkles className="w-5 h-5 text-cabo-teal animate-glow" />
+      </div>
       <div className="max-w-4xl mx-auto text-center">
         <div className="mb-8">
           <Sparkles className="w-16 h-16 text-moonlight mx-auto mb-6 animate-glow" fill="currentColor" />
