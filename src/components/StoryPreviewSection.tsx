@@ -21,7 +21,7 @@ const StoryPreviewSection = () => {
             <img 
               src="/lovable-uploads/12e610c9-16c9-45ea-9d79-abfcb3f3c15f.png" 
               alt="CaboWabo app showing Your Library with David's personalized stories collection"
-              className="w-auto h-auto shadow-dreamy rounded-3xl scale-75"
+              className="w-auto h-auto rounded-3xl scale-75"
             />
           </div>
           
