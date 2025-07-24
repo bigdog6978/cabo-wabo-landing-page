@@ -1,6 +1,6 @@
 const NewSection = () => {
   return (
-    <section className="py-24 px-4 bg-white">
+    <section className="pt-24 px-4 bg-white">
       <div className="max-w-6xl mx-auto text-center">
         <h2 className="text-4xl md:text-5xl font-bold text-cabo-dark mb-6">
           Experience the Magic
