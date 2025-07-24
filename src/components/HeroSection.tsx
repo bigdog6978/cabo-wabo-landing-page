@@ -1,8 +1,27 @@
 import { Button } from "@/components/ui/button";
 import { Sparkles, Moon, Star, Smartphone } from "lucide-react";
 import heroImage from "@/assets/hero-bedtime.jpg";
+import { useState } from "react";
+import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/components/ui/dialog";
+import { Input } from "@/components/ui/input";
+import { useToast } from "@/hooks/use-toast";
 
 const HeroSection = () => {
+  const [isDialogOpen, setIsDialogOpen] = useState(false);
+  const [email, setEmail] = useState("");
+  const { toast } = useToast();
+
+  const handleEmailSubmit = (e: React.FormEvent) => {
+    e.preventDefault();
+    if (email) {
+      toast({
+        title: "Thank you!",
+        description: "We'll notify you when CaboWabo launches.",
+      });
+      setEmail("");
+      setIsDialogOpen(false);
+    }
+  };
   return (
     <div className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background Image */}
@@ -49,7 +68,12 @@ const HeroSection = () => {
         </p>
         
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-          <Button variant="hero" size="lg" className="text-lg px-8 py-6 h-auto">
+          <Button 
+            variant="hero" 
+            size="lg" 
+            className="text-lg px-8 py-6 h-auto border border-[#64fdff]"
+            onClick={() => setIsDialogOpen(true)}
+          >
             Download on the Apple App Store
           </Button>
           <Button variant="outline" size="lg" className="text-lg px-8 py-6 h-auto border-cabo-teal text-cabo-teal hover:bg-cabo-teal hover:text-white">
@@ -57,6 +81,33 @@ const HeroSection = () => {
           </Button>
         </div>
       </div>
+
+      {/* Coming Soon Dialog */}
+      <Dialog open={isDialogOpen} onOpenChange={setIsDialogOpen}>
+        <DialogContent className="sm:max-w-md">
+          <DialogHeader>
+            <DialogTitle className="text-2xl font-bold text-center mb-2">Coming Soon</DialogTitle>
+          </DialogHeader>
+          <div className="text-center space-y-4">
+            <p className="text-muted-foreground">
+              Enter your email and we'll notify you when we've launched
+            </p>
+            <form onSubmit={handleEmailSubmit} className="space-y-4">
+              <Input
+                type="email"
+                placeholder="Enter your email address"
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
+                required
+                className="w-full"
+              />
+              <Button type="submit" className="w-full">
+                Notify Me
+              </Button>
+            </form>
+          </div>
+        </DialogContent>
+      </Dialog>
     </div>
   );
 };
