@@ -56,12 +56,6 @@ const features = [
     description: "Takes the stress out of bedtime",
     subtext: "✔ Easy to use, even when you're exhausted"
   },
-  {
-    icon: Smartphone,
-    title: "Screen-Free Story Magic",
-    description: "Let them listen, you relax",
-    subtext: "✔ No overstimulation before bed"
-  }
 ];
 
 const FeaturesSection = () => {
