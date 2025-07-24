@@ -17,11 +17,11 @@ const StoryPreviewSection = () => {
         
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           {/* Phone Mockup Image */}
-          <div className="flex justify-center">
+          <div className="flex justify-center items-center h-fit">
             <img 
               src="/lovable-uploads/d1b9af48-3b44-47dc-9c4e-cc9e4562c50d.png" 
               alt="CaboWabo app showing personalized story options on mobile phone"
-              className="max-w-full h-auto shadow-dreamy rounded-3xl scale-50"
+              className="max-w-sm h-auto shadow-dreamy rounded-3xl scale-75"
             />
           </div>
           
