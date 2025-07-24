@@ -19,9 +19,9 @@ const StoryPreviewSection = () => {
           {/* Phone Mockup Image */}
           <div className="flex justify-center">
             <img 
-              src="/lovable-uploads/30981eff-1b67-47ac-9d64-3015100d931b.png" 
-              alt="CaboWabo app showing David's personalized story on mobile phone"
-              className="max-w-full h-auto shadow-dreamy rounded-3xl"
+              src="/lovable-uploads/d1b9af48-3b44-47dc-9c4e-cc9e4562c50d.png" 
+              alt="CaboWabo app showing personalized story options on mobile phone"
+              className="max-w-full h-auto shadow-dreamy rounded-3xl scale-50"
             />
           </div>
           
