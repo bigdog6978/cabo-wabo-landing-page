@@ -55,9 +55,6 @@ const PricingSection = () => {
               </li>
             </ul>
             
-            <Button variant="outline" className="w-full" size="lg">
-              Start Monthly Plan
-            </Button>
           </Card>
           
           {/* Yearly Plan */}
@@ -103,10 +100,6 @@ const PricingSection = () => {
               </li>
             </ul>
             
-            <Button variant="hero" className="w-full" size="lg">
-              <Sparkles className="w-5 h-5 mr-2" />
-              Start Yearly Plan
-            </Button>
           </Card>
         </div>
         
