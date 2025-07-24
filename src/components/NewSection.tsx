@@ -12,7 +12,7 @@ const NewSection = () => {
           <img 
             src="/lovable-uploads/2b65f11d-fb2d-43b4-a4f9-5746e965f857.png" 
             alt="CaboWabo app interface showing personalization options, story upgrade screen, and David's story library"
-            className="w-full max-w-4xl h-auto rounded-2xl"
+            className="w-full max-w-4xl h-auto rounded-2xl scale-110"
           />
         </div>
       </div>
