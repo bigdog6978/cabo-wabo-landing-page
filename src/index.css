@@ -17,17 +17,17 @@ All colors MUST be HSL.
     --popover: 0 0% 100%;
     --popover-foreground: 240 25% 15%;
 
-    --primary: 258 89% 66%;
+    --primary: 175 55% 55%;
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 50 100% 80%;
+    --secondary: 45 100% 70%;
     --secondary-foreground: 240 25% 15%;
 
-    --muted: 244 35% 94%;
-    --muted-foreground: 240 15% 55%;
+    --muted: 210 30% 94%;
+    --muted-foreground: 210 15% 55%;
 
-    --accent: 280 65% 85%;
-    --accent-foreground: 240 25% 15%;
+    --accent: 175 65% 65%;
+    --accent-foreground: 220 50% 15%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
@@ -36,21 +36,21 @@ All colors MUST be HSL.
     --input: 244 30% 88%;
     --ring: 258 89% 66%;
 
-    /* Custom bedtime story theme colors */
-    --night-sky: 252 65% 45%;
-    --moonlight: 50 100% 85%;
+    /* CaboWabo brand theme colors */
+    --night-sky: 220 50% 25%;
+    --moonlight: 45 100% 85%;
     --starlight: 45 100% 90%;
-    --dreamy-purple: 280 60% 75%;
-    --cozy-orange: 25 95% 75%;
+    --cabo-teal: 175 55% 55%;
+    --cabo-dark: 220 50% 15%;
     
     /* Gradients */
-    --gradient-hero: linear-gradient(135deg, hsl(var(--night-sky)), hsl(var(--primary)));
-    --gradient-card: linear-gradient(145deg, hsl(var(--moonlight) / 0.3), hsl(var(--starlight) / 0.5));
-    --gradient-accent: linear-gradient(120deg, hsl(var(--dreamy-purple)), hsl(var(--cozy-orange)));
+    --gradient-hero: linear-gradient(135deg, hsl(var(--night-sky)), hsl(var(--cabo-teal)));
+    --gradient-card: linear-gradient(145deg, hsl(var(--cabo-teal) / 0.1), hsl(var(--primary) / 0.05));
+    --gradient-accent: linear-gradient(120deg, hsl(var(--cabo-teal)), hsl(var(--secondary)));
     
     /* Shadows */
-    --shadow-dreamy: 0 20px 40px -10px hsl(var(--primary) / 0.3);
-    --shadow-soft: 0 8px 25px -5px hsl(var(--night-sky) / 0.2);
+    --shadow-dreamy: 0 20px 40px -10px hsl(var(--cabo-teal) / 0.3);
+    --shadow-soft: 0 8px 25px -5px hsl(var(--cabo-teal) / 0.15);
     
     /* Animations */
     --float-duration: 6s;

@@ -52,12 +52,12 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
-				// Bedtime story theme colors
+				// CaboWabo brand theme colors
 				'night-sky': 'hsl(var(--night-sky))',
 				'moonlight': 'hsl(var(--moonlight))',
 				'starlight': 'hsl(var(--starlight))',
-				'dreamy-purple': 'hsl(var(--dreamy-purple))',
-				'cozy-orange': 'hsl(var(--cozy-orange))',
+				'cabo-teal': 'hsl(var(--cabo-teal))',
+				'cabo-dark': 'hsl(var(--cabo-dark))',
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',

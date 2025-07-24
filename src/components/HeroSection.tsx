@@ -15,19 +15,19 @@ const HeroSection = () => {
       
       {/* Floating Elements */}
       <div className="absolute top-20 left-10 animate-float">
-        <Star className="w-6 h-6 text-starlight animate-glow" />
+        <Star className="w-6 h-6 text-cabo-teal animate-glow" />
       </div>
       <div className="absolute top-32 right-20 animate-float" style={{ animationDelay: "2s" }}>
-        <Moon className="w-8 h-8 text-moonlight animate-glow" />
+        <Moon className="w-8 h-8 text-starlight animate-glow" />
       </div>
       <div className="absolute bottom-32 left-20 animate-float" style={{ animationDelay: "4s" }}>
-        <Sparkles className="w-5 h-5 text-starlight animate-glow" />
+        <Sparkles className="w-5 h-5 text-cabo-teal animate-glow" />
       </div>
       
       {/* Content */}
       <div className="relative z-10 text-center px-4 max-w-4xl mx-auto">
         <div className="mb-6">
-          <Sparkles className="w-16 h-16 text-moonlight mx-auto mb-4 animate-glow" />
+          <Sparkles className="w-16 h-16 text-cabo-teal mx-auto mb-4 animate-glow" />
         </div>
         
         <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
@@ -49,7 +49,7 @@ const HeroSection = () => {
             Download Free on App Store
             <Sparkles className="w-5 h-5 ml-2" />
           </Button>
-          <Button variant="outline" size="lg" className="text-lg px-8 py-6 h-auto border-moonlight text-moonlight hover:bg-moonlight hover:text-night-sky">
+          <Button variant="outline" size="lg" className="text-lg px-8 py-6 h-auto border-cabo-teal text-cabo-teal hover:bg-cabo-teal hover:text-white">
             Watch Demo
           </Button>
         </div>
