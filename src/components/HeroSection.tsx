@@ -50,8 +50,7 @@ const HeroSection = () => {
         
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
           <Button variant="hero" size="lg" className="text-lg px-8 py-6 h-auto">
-            Download on the App Store
-            <Smartphone className="w-5 h-5 ml-2" />
+            Download on the Apple App Store
           </Button>
           <Button variant="outline" size="lg" className="text-lg px-8 py-6 h-auto border-cabo-teal text-cabo-teal hover:bg-cabo-teal hover:text-white">
             Watch Demo
