@@ -44,7 +44,7 @@ const HowItWorksSection = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {steps.map((step, index) => (
             <div key={index} className="relative">
-              <Card className="p-8 text-center border-none shadow-soft bg-[#eeeeee] hover:shadow-dreamy transition-all duration-300">
+              <Card className="p-8 text-center border-none shadow-soft bg-[#f7f7f7] hover:shadow-dreamy transition-all duration-300">
                 <div className="mb-6">
                   <div className="relative mx-auto w-20 h-20 mb-4">
                     <div className="absolute inset-0 gradient-accent rounded-full opacity-20"></div>
