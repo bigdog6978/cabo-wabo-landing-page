@@ -16,31 +16,14 @@ const StoryPreviewSection = () => {
         </div>
         
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-          {/* Story Preview */}
-          <Card className="p-8 gradient-card border-none shadow-dreamy">
-            <div className="mb-6">
-              <Quote className="w-8 h-8 text-primary mb-4" />
-              <h3 className="text-2xl font-bold text-foreground mb-4">
-                "Emma and the Moonlight Adventure"
-              </h3>
-            </div>
-            
-            <div className="prose prose-lg text-muted-foreground leading-relaxed">
-              <p className="mb-4">
-                Once upon a time, in a cozy little house on Maple Street, lived a brave and curious 7-year-old named <span className="text-primary font-semibold">Emma</span>. Emma loved <span className="text-primary font-semibold">painting</span> and had the most beautiful <span className="text-primary font-semibold">purple bedroom</span> you could imagine.
-              </p>
-              
-              <p className="mb-4">
-                One magical evening, as Emma was getting ready for bed, she noticed her favorite <span className="text-primary font-semibold">stuffed unicorn, Sparkles,</span> was glowing softly in the moonlight...
-              </p>
-              
-              <div className="mt-6 p-4 bg-muted/50 rounded-lg">
-                <p className="text-sm text-muted-foreground italic">
-                  ✨ Personalized with: Child's name, age, interests (painting), favorite toy (unicorn), and room color
-                </p>
-              </div>
-            </div>
-          </Card>
+          {/* Phone Mockup Image */}
+          <div className="flex justify-center">
+            <img 
+              src="/lovable-uploads/30981eff-1b67-47ac-9d64-3015100d931b.png" 
+              alt="CaboWabo app showing David's personalized story on mobile phone"
+              className="max-w-full h-auto shadow-dreamy rounded-3xl"
+            />
+          </div>
           
           {/* Testimonials */}
           <div className="space-y-6">
