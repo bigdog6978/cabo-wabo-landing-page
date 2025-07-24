@@ -1,11 +1,11 @@
 const NewSection = () => {
   return (
-    <section className="pt-24 px-4 bg-white">
+    <section className="pt-12 px-4 bg-white">
       <div className="max-w-6xl mx-auto text-center">
         <h2 className="text-4xl md:text-5xl font-bold text-cabo-dark mb-6">
           Experience the Magic
         </h2>
-        <p className="text-xl text-muted-foreground max-w-3xl mx-auto mb-12">
+        <p className="text-xl text-muted-foreground max-w-3xl mx-auto mb-6">
           See how CaboWabo transforms bedtime with personalized stories that make your child the hero of every adventure.
         </p>
         <div className="flex justify-center">
