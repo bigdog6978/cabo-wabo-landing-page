@@ -52,6 +52,12 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				// Bedtime story theme colors
+				'night-sky': 'hsl(var(--night-sky))',
+				'moonlight': 'hsl(var(--moonlight))',
+				'starlight': 'hsl(var(--starlight))',
+				'dreamy-purple': 'hsl(var(--dreamy-purple))',
+				'cozy-orange': 'hsl(var(--cozy-orange))',
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
