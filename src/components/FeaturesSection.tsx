@@ -68,7 +68,7 @@ const FeaturesSection = () => {
             <span className="gradient-accent bg-clip-text text-transparent"> CaboWabo</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            10 emotional + practical benefits that transform bedtime forever
+            9 emotional + practical benefits that transform bedtime forever
           </p>
         </div>
         
