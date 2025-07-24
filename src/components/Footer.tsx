@@ -34,6 +34,45 @@ For questions about these Terms of Service, contact support@cabowabo.app.
 
 Last updated: June 2025`;
 
+  const licenseAgreementContent = `This License Agreement ("Agreement") is between you and CaboWabo ("we," "us," or "our") regarding your use of the CaboWabo mobile application ("App").
+
+1. License Grant
+Subject to your compliance with this Agreement, our Terms of Service, and Privacy Statement, we grant you a limited, non-exclusive, non-transferable, revocable license to use the App on your personal device for personal, non-commercial purposes.
+
+2. Acceptable Use
+You agree to use the App only for lawful purposes and in accordance with this Agreement. You may not:
+
+• Use the App for any commercial purpose
+• Attempt to reverse engineer, decompile, or disassemble the App
+• Remove or alter any copyright, trademark, or other proprietary notices
+• Use the App to generate inappropriate or harmful content
+• Share your account credentials with others
+
+3. Content and Privacy
+• The App generates AI-powered stories based on information you provide
+• You are responsible for the accuracy and appropriateness of information you input
+• Our Privacy Statement governs how we collect, use, and protect your information
+• We do not store or share your children's personal information beyond what's necessary for story generation
+
+4. Disclaimer of Warranties
+THE APP IS PROVIDED "AS IS" WITHOUT WARRANTIES OF ANY KIND. WE DISCLAIM ALL WARRANTIES, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT.
+
+5. Limitation of Liability
+TO THE MAXIMUM EXTENT PERMITTED BY LAW, WE SHALL NOT BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES ARISING FROM YOUR USE OF THE APP.
+
+6. Termination
+We may terminate this license at any time if you fail to comply with this Agreement, our Terms of Service, or Privacy Statement. Upon termination, you must cease all use of the App.
+
+7. Governing Law
+This Agreement is governed by the laws of the United States, without regard to conflict of law principles.
+
+8. Changes to Agreement
+We may modify this Agreement at any time. Continued use of the App constitutes acceptance of any changes.
+
+By using the App, you acknowledge that you have read, understood, and agree to be bound by this Agreement, our Terms of Service, and Privacy Statement.
+
+Last updated: June 2025`;
+
   const handleModalOpen = (modalType: string) => {
     setActiveModal(modalType);
   };
@@ -90,6 +129,14 @@ Last updated: June 2025`;
                   Terms of Service
                 </button>
               </li>
+              <li>
+                <button 
+                  onClick={() => handleModalOpen('license')}
+                  className="hover:text-cabo-teal transition-colors text-left"
+                >
+                  License Agreement
+                </button>
+              </li>
               <li><a href="#" className="hover:text-cabo-teal transition-colors">Contact</a></li>
             </ul>
           </div>
@@ -112,6 +159,12 @@ Last updated: June 2025`;
         onClose={handleModalClose}
         title="Terms of Service"
         content={termsOfServiceContent}
+      />
+      <LegalModal
+        isOpen={activeModal === 'license'}
+        onClose={handleModalClose}
+        title="License Agreement"
+        content={licenseAgreementContent}
       />
     </footer>
   );
