@@ -1,6 +1,6 @@
 const NewSection = () => {
   return (
-    <section className="pt-12 px-4 bg-white">
+    <section className="pt-12 px-4 pb-6 bg-white">
       <div className="max-w-6xl mx-auto text-center">
         <h2 className="text-4xl md:text-5xl font-bold text-cabo-dark mb-6">
           Experience the Magic
