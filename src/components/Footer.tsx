@@ -1,5 +1,6 @@
 import { Sparkles } from "lucide-react";
-import caboWaboLogo from "/src/assets/cabo-wabo-logo.png";
+// Using the uploaded logo directly
+const caboWaboLogo = "/lovable-uploads/2ae20f8e-51bb-449e-80aa-e850451395d5.png";
 
 const Footer = () => {
   return (
