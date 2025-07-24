@@ -25,20 +25,6 @@ const CTASection = () => {
           </Button>
         </div>
         
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-moonlight/80">
-          <div className="text-center">
-            <div className="text-3xl font-bold text-moonlight mb-2">10,000+</div>
-            <div className="text-sm">Happy Families</div>
-          </div>
-          <div className="text-center">
-            <div className="text-3xl font-bold text-moonlight mb-2">50,000+</div>
-            <div className="text-sm">Stories Created</div>
-          </div>
-          <div className="text-center">
-            <div className="text-3xl font-bold text-moonlight mb-2">4.9★</div>
-            <div className="text-sm">Parent Rating</div>
-          </div>
-        </div>
       </div>
     </div>
   );
