@@ -57,10 +57,6 @@ const HeroSection = () => {
             Watch Demo
           </Button>
         </div>
-        
-        <div className="mt-8 text-moonlight/90">
-          <p className="text-lg font-semibold">★★★★★ Loved by 10,000+ families</p>
-        </div>
       </div>
     </div>
   );
