@@ -1,8 +1,29 @@
+import { useState } from "react";
 import { Sparkles } from "lucide-react";
+import LegalModal from "./LegalModal";
 // Using the uploaded logo directly
 const caboWaboLogo = "/lovable-uploads/2ae20f8e-51bb-449e-80aa-e850451395d5.png";
 
 const Footer = () => {
+  const [activeModal, setActiveModal] = useState<string | null>(null);
+
+  const privacyPolicyContent = `CaboWabo values your privacy and is committed to protecting your personal information. We collect only the information necessary to provide you with personalized stories and a great user experience. This may include your name, email address, and story preferences.
+
+All stories and images generated are stored securely and are only accessible to you. We do not share your personal information or generated content with third parties, except as required to provide our services (such as using OpenAI for story generation and Supabase for storage).
+
+We do not use your data for advertising or sell it to anyone. You may delete your account and all associated data at any time from the app settings.
+
+If you have any questions about your privacy, please contact us at support@cabowabo.app.`;
+
+  const termsOfServiceContent = `Terms of Service content will be provided here.`;
+
+  const handleModalOpen = (modalType: string) => {
+    setActiveModal(modalType);
+  };
+
+  const handleModalClose = () => {
+    setActiveModal(null);
+  };
   return (
     <footer className="py-12 px-4 bg-foreground text-background">
       <div className="max-w-6xl mx-auto">
@@ -36,8 +57,22 @@ const Footer = () => {
             <h4 className="font-semibold mb-4">Company</h4>
             <ul className="space-y-2 text-background/80">
               <li><a href="#" className="hover:text-cabo-teal transition-colors">About Us</a></li>
-              <li><a href="#" className="hover:text-cabo-teal transition-colors">Privacy Policy</a></li>
-              <li><a href="#" className="hover:text-cabo-teal transition-colors">Terms of Service</a></li>
+              <li>
+                <button 
+                  onClick={() => handleModalOpen('privacy')}
+                  className="hover:text-cabo-teal transition-colors text-left"
+                >
+                  Privacy Policy
+                </button>
+              </li>
+              <li>
+                <button 
+                  onClick={() => handleModalOpen('terms')}
+                  className="hover:text-cabo-teal transition-colors text-left"
+                >
+                  Terms of Service
+                </button>
+              </li>
               <li><a href="#" className="hover:text-cabo-teal transition-colors">Contact</a></li>
             </ul>
           </div>
@@ -47,6 +82,20 @@ const Footer = () => {
           <p>&copy; 2024 CaboWabo. All rights reserved. Made with ❤️ for families everywhere.</p>
         </div>
       </div>
+
+      {/* Legal Modals */}
+      <LegalModal
+        isOpen={activeModal === 'privacy'}
+        onClose={handleModalClose}
+        title="Privacy Policy"
+        content={privacyPolicyContent}
+      />
+      <LegalModal
+        isOpen={activeModal === 'terms'}
+        onClose={handleModalClose}
+        title="Terms of Service"
+        content={termsOfServiceContent}
+      />
     </footer>
   );
 };
