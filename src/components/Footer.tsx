@@ -7,11 +7,13 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Brand */}
           <div className="md:col-span-2">
-            <div className="flex items-center space-x-2 mb-4">
-              <Sparkles className="w-8 h-8 text-moonlight" />
-              <span className="text-2xl font-bold">CaboWabo</span>
+            <div className="flex items-center space-x-3 mb-4">
+              <div className="flex items-center">
+                <Sparkles className="w-8 h-8 text-cabo-teal mr-2" />
+                <span className="text-2xl font-bold text-cabo-teal">CaboWabo</span>
+              </div>
             </div>
-            <p className="text-background/80 max-w-md">
+            <p className="text-background/80 max-w-md leading-relaxed">
               Creating magical, personalized bedtime stories that spark imagination and bring families closer together.
             </p>
           </div>
@@ -20,20 +22,20 @@ const Footer = () => {
           <div>
             <h4 className="font-semibold mb-4">Product</h4>
             <ul className="space-y-2 text-background/80">
-              <li><a href="#" className="hover:text-moonlight transition-colors">How it Works</a></li>
-              <li><a href="#" className="hover:text-moonlight transition-colors">Pricing</a></li>
-              <li><a href="#" className="hover:text-moonlight transition-colors">Sample Stories</a></li>
-              <li><a href="#" className="hover:text-moonlight transition-colors">FAQ</a></li>
+              <li><a href="#" className="hover:text-cabo-teal transition-colors">How it Works</a></li>
+              <li><a href="#" className="hover:text-cabo-teal transition-colors">Pricing</a></li>
+              <li><a href="#" className="hover:text-cabo-teal transition-colors">Sample Stories</a></li>
+              <li><a href="#" className="hover:text-cabo-teal transition-colors">FAQ</a></li>
             </ul>
           </div>
           
           <div>
             <h4 className="font-semibold mb-4">Company</h4>
             <ul className="space-y-2 text-background/80">
-              <li><a href="#" className="hover:text-moonlight transition-colors">About Us</a></li>
-              <li><a href="#" className="hover:text-moonlight transition-colors">Privacy Policy</a></li>
-              <li><a href="#" className="hover:text-moonlight transition-colors">Terms of Service</a></li>
-              <li><a href="#" className="hover:text-moonlight transition-colors">Contact</a></li>
+              <li><a href="#" className="hover:text-cabo-teal transition-colors">About Us</a></li>
+              <li><a href="#" className="hover:text-cabo-teal transition-colors">Privacy Policy</a></li>
+              <li><a href="#" className="hover:text-cabo-teal transition-colors">Terms of Service</a></li>
+              <li><a href="#" className="hover:text-cabo-teal transition-colors">Contact</a></li>
             </ul>
           </div>
         </div>
