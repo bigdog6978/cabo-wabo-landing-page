@@ -67,12 +67,6 @@ const ProblemSection = () => {
             </Card>
           ))}
         </div>
-        
-        <div className="text-center mt-12">
-          <p className="text-lg text-muted-foreground italic">
-            "I want to read to my kids every night—but I'm just too tired."
-          </p>
-        </div>
       </div>
     </div>
   );
