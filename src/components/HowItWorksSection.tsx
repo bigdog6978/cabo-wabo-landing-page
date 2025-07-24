@@ -10,7 +10,7 @@ const steps = [
   },
   {
     icon: Wand2,
-    title: "Choose Tonight's Lesson",
+    title: "Choose a Lesson",
     description: "Pick from 9 values like kindness, honesty, sharing, or courage - or let us surprise you!",
     step: "02"
   },
