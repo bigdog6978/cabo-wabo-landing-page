@@ -95,7 +95,7 @@ Last updated: July 2024`;
   return (
     <footer className="py-12 px-4 bg-foreground text-background">
       <div className="max-w-6xl mx-auto">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Brand */}
           <div className="md:col-span-2">
             <div className="flex items-center space-x-3 mb-4">
@@ -108,17 +108,6 @@ Last updated: July 2024`;
             <p className="text-background/80 max-w-md leading-relaxed">
               Creating magical, personalized bedtime stories that spark imagination and bring families closer together.
             </p>
-          </div>
-          
-          {/* Links */}
-          <div>
-            <h4 className="font-semibold mb-4">Product</h4>
-            <ul className="space-y-2 text-background/80">
-              <li><a href="#" className="hover:text-cabo-teal transition-colors">How it Works</a></li>
-              <li><a href="#" className="hover:text-cabo-teal transition-colors">Pricing</a></li>
-              <li><a href="#" className="hover:text-cabo-teal transition-colors">Sample Stories</a></li>
-              <li><a href="#" className="hover:text-cabo-teal transition-colors">FAQ</a></li>
-            </ul>
           </div>
           
           <div>
