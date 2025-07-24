@@ -31,29 +31,31 @@ const HeroSection = () => {
         </div>
         
         <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
-          Magical Bedtime
+          Never Run Out of
           <br />
           <span className="gradient-accent bg-clip-text text-transparent">
-            Stories for Kids
+            Magical Bedtime Stories
           </span>
+          <br />
+          <span className="text-4xl md:text-5xl">Again</span>
         </h1>
         
-        <p className="text-xl md:text-2xl text-moonlight mb-8 max-w-2xl mx-auto leading-relaxed">
-          AI-powered personalized bedtime stories that spark imagination and make every night special for children ages 3-10
+        <p className="text-xl md:text-2xl text-moonlight mb-8 max-w-3xl mx-auto leading-relaxed">
+          AI-powered personalized stories featuring <strong>YOUR child as the hero</strong>, teaching valuable life lessons in just 5 minutes
         </p>
         
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
           <Button variant="hero" size="lg" className="text-lg px-8 py-6 h-auto">
-            Create Your Story
+            Download Free on App Store
             <Sparkles className="w-5 h-5 ml-2" />
           </Button>
           <Button variant="outline" size="lg" className="text-lg px-8 py-6 h-auto border-moonlight text-moonlight hover:bg-moonlight hover:text-night-sky">
-            See Sample Stories
+            Watch Demo
           </Button>
         </div>
         
-        <div className="mt-12 text-moonlight/80">
-          <p className="text-sm">✨ Personalized for your child ✨ Educational & fun ✨ New story every night</p>
+        <div className="mt-8 text-moonlight/90">
+          <p className="text-lg font-semibold">★★★★★ Loved by 10,000+ families</p>
         </div>
       </div>
     </div>

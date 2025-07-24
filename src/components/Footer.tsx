@@ -9,7 +9,7 @@ const Footer = () => {
           <div className="md:col-span-2">
             <div className="flex items-center space-x-2 mb-4">
               <Sparkles className="w-8 h-8 text-moonlight" />
-              <span className="text-2xl font-bold">DreamTales AI</span>
+              <span className="text-2xl font-bold">CaboWabo</span>
             </div>
             <p className="text-background/80 max-w-md">
               Creating magical, personalized bedtime stories that spark imagination and bring families closer together.
@@ -39,7 +39,7 @@ const Footer = () => {
         </div>
         
         <div className="border-t border-background/20 mt-8 pt-8 text-center text-background/60">
-          <p>&copy; 2024 DreamTales AI. All rights reserved. Made with ❤️ for families everywhere.</p>
+          <p>&copy; 2024 CaboWabo. All rights reserved. Made with ❤️ for families everywhere.</p>
         </div>
       </div>
     </footer>

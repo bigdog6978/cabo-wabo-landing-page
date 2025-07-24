@@ -53,9 +53,9 @@ const StoryPreviewSection = () => {
                 </div>
                 <div>
                   <p className="text-muted-foreground mb-3">
-                    "My daughter Sophie asks for her 'special stories' every night now. She loves being the hero of her own adventures!"
+                    "CaboWabo made storytime possible again. My daughter now begs for her custom bedtime story!"
                   </p>
-                  <p className="font-semibold text-foreground">- Sarah M., Mom of 5-year-old</p>
+                  <p className="font-semibold text-foreground">- Jenna M., mom of two</p>
                 </div>
               </div>
             </Card>
@@ -71,7 +71,7 @@ const StoryPreviewSection = () => {
                   <p className="text-muted-foreground mb-3">
                     "Bedtime used to be a struggle. Now Jake can't wait to hear what adventure awaits him tonight!"
                   </p>
-                  <p className="font-semibold text-foreground">- Mike T., Dad of 8-year-old</p>
+                  <p className="font-semibold text-foreground">- Mike T., dad of 8-year-old</p>
                 </div>
               </div>
             </Card>
@@ -85,9 +85,9 @@ const StoryPreviewSection = () => {
                 </div>
                 <div>
                   <p className="text-muted-foreground mb-3">
-                    "The stories are beautifully written and perfectly age-appropriate. Lily learns something new in every adventure."
+                    "The stories help my shy daughter feel confident. She loves being the brave hero!"
                   </p>
-                  <p className="font-semibold text-foreground">- Amanda K., Mom of 6-year-old</p>
+                  <p className="font-semibold text-foreground">- Amanda K., mom of 6-year-old</p>
                 </div>
               </div>
             </Card>

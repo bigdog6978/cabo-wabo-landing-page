@@ -4,26 +4,26 @@ import { User, Wand2, BookOpen, Heart } from "lucide-react";
 const steps = [
   {
     icon: User,
-    title: "Tell Us About Your Child",
-    description: "Share your child's name, age, interests, and favorite things to help us create the perfect story.",
+    title: "Describe Your Child",
+    description: "Tell us your child's name, age, interests, and favorite things to create their perfect character.",
     step: "01"
   },
   {
     icon: Wand2,
-    title: "AI Creates Magic",
-    description: "Our advanced AI weaves together a unique, personalized story that captures your child's imagination.",
+    title: "Choose Tonight's Lesson",
+    description: "Pick from values like kindness, honesty, sharing, or courage - or let us surprise you!",
     step: "02"
   },
   {
     icon: BookOpen,
-    title: "Story Time Begins",
-    description: "Read the beautifully crafted story together, watching your child's face light up as they become the hero.",
+    title: "Add Your Twist",
+    description: "Want them to meet a dragon? Visit space? Include their pet? Customize the adventure.",
     step: "03"
   },
   {
     icon: Heart,
-    title: "Sweet Dreams",
-    description: "Your child drifts off to sleep with a smile, excited for tomorrow's new adventure.",
+    title: "Story Ready in Seconds!",
+    description: "Your personalized story appears instantly, perfectly crafted for your child's bedtime.",
     step: "04"
   }
 ];
@@ -34,10 +34,10 @@ const HowItWorksSection = () => {
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
-            How It Works
+            Meet CaboWabo - Your Personal Storyteller
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Creating personalized bedtime magic is as easy as 1, 2, 3, 4
+            Creating personalized bedtime magic in 4 simple steps
           </p>
         </div>
         

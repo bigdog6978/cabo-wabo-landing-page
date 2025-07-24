@@ -8,7 +8,7 @@ const CTASection = () => {
         <div className="mb-8">
           <Sparkles className="w-16 h-16 text-moonlight mx-auto mb-6 animate-glow" />
           <h2 className="text-4xl md:text-6xl font-bold text-white mb-6">
-            Ready to Transform Bedtime?
+            Transform Bedtime Tonight
           </h2>
           <p className="text-xl md:text-2xl text-moonlight/90 max-w-2xl mx-auto leading-relaxed">
             Join thousands of parents who've discovered the magic of personalized bedtime stories
@@ -17,11 +17,11 @@ const CTASection = () => {
         
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
           <Button variant="secondary" size="lg" className="text-lg px-8 py-6 h-auto">
-            Start Free Trial
+            Download Free on App Store
             <ArrowRight className="w-5 h-5 ml-2" />
           </Button>
           <Button variant="outline" size="lg" className="text-lg px-8 py-6 h-auto border-moonlight text-moonlight hover:bg-moonlight hover:text-night-sky">
-            Learn More
+            Watch Demo
           </Button>
         </div>
         
