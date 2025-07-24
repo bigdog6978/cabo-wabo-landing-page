@@ -1,5 +1,5 @@
 import { Sparkles } from "lucide-react";
-import caboWaboLogo from "@/assets/cabo-wabo-logo.png";
+import caboWaboLogo from "/src/assets/cabo-wabo-logo.png";
 
 const Footer = () => {
   return (
