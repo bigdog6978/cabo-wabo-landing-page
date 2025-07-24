@@ -6,7 +6,7 @@ const CTASection = () => {
     <div className="py-24 px-4 gradient-hero">
       <div className="max-w-4xl mx-auto text-center">
         <div className="mb-8">
-          <Sparkles className="w-16 h-16 text-moonlight mx-auto mb-6 animate-glow" />
+          <Sparkles className="w-16 h-16 text-moonlight mx-auto mb-6 animate-glow" fill="currentColor" />
           <h2 className="text-4xl md:text-6xl font-bold text-white mb-6">
             Transform Bedtime Tonight
           </h2>
