@@ -14,7 +14,7 @@ All stories and images generated are stored securely and are only accessible to 
 
 We do not use your data for advertising or sell it to anyone. You may delete your account and all associated data at any time from the app settings.
 
-If you have any questions about your privacy, please contact us at support@cabowabo.app.`;
+If you have any questions about your privacy, please contact us at support@cabowabo.ai.`;
 
   const termsOfServiceContent = `By using CaboWabo, you agree to these Terms of Service ("Terms") in addition to our Privacy Statement and License Agreement.
 
@@ -31,7 +31,7 @@ By using this app, you consent to receive notifications from CaboWabo regarding 
 We reserve the right to update these terms at any time. Continued use of the app constitutes acceptance of any changes.
 
 5. Contact
-For questions about these Terms of Service, contact support@cabowabo.app.
+For questions about these Terms of Service, contact support@cabowabo.ai.
 
 Last updated: June 2025`;
 
