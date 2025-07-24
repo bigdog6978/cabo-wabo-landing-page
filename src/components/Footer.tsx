@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Sparkles, Facebook, Twitter, Instagram, Youtube } from "lucide-react";
+import { Sparkles, Facebook, Twitter, Instagram, Youtube, Music } from "lucide-react";
 import LegalModal from "./LegalModal";
 // Using the uploaded logo directly
 const caboWaboLogo = "/lovable-uploads/2ae20f8e-51bb-449e-80aa-e850451395d5.png";
@@ -122,6 +122,9 @@ Last updated: July 2024`;
               </a>
               <a href="#" className="text-background/60 hover:text-cabo-teal transition-colors">
                 <Youtube size={20} />
+              </a>
+              <a href="#" className="text-background/60 hover:text-cabo-teal transition-colors">
+                <Music size={20} />
               </a>
             </div>
           </div>
