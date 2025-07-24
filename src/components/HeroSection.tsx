@@ -13,6 +13,15 @@ const HeroSection = () => {
         <div className="absolute inset-0 gradient-hero opacity-80"></div>
       </div>
       
+      {/* Logo in top left corner */}
+      <div className="absolute top-6 left-6 z-20">
+        <img 
+          src="/lovable-uploads/cff4a35b-daac-4cfa-a154-02d5bfc1ade6.png" 
+          alt="CaboWabo" 
+          className="h-12 md:h-16 w-auto"
+        />
+      </div>
+      
       {/* Floating Elements */}
       <div className="absolute top-20 left-10 animate-float">
         <Star className="w-6 h-6 text-cabo-teal animate-glow" />
