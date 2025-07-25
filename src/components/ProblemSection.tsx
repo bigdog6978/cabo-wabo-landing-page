@@ -37,17 +37,17 @@ const problems = [
 const ProblemSection = () => {
   return (
     <div className="py-24 px-4 gradient-card">
-      <div className="max-w-6xl mx-auto">
+      <div className="max-w-4xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
-            Sound Familiar?
+            Why parents love CaboWabo
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
             If you're nodding along, you're not alone. Thousands of parents face these same bedtime challenges every night.
           </p>
         </div>
         
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-3xl mx-auto">
           {problems.map((problem, index) => (
             <Card 
               key={index} 
