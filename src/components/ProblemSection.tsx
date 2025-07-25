@@ -40,7 +40,7 @@ const ProblemSection = () => {
       <div className="max-w-4xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
-            Why parents love CaboWabo
+            Sound Familiar?
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
             If you're nodding along, you're not alone. Thousands of parents face these same bedtime challenges every night.
