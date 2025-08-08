@@ -5,21 +5,45 @@ import { useState } from "react";
 import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/components/ui/dialog";
 import { Input } from "@/components/ui/input";
 import { useToast } from "@/hooks/use-toast";
+import { saveEmail } from "@/lib/supabase";
 
 const HeroSection = () => {
   const [isDialogOpen, setIsDialogOpen] = useState(false);
   const [email, setEmail] = useState("");
+  const [isSubmitting, setIsSubmitting] = useState(false);
   const { toast } = useToast();
 
-  const handleEmailSubmit = (e: React.FormEvent) => {
+  const handleEmailSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    if (email) {
-      toast({
-        title: "Thank you!",
-        description: "We'll notify you when CaboWabo launches.",
-      });
-      setEmail("");
-      setIsDialogOpen(false);
+    if (email && !isSubmitting) {
+      setIsSubmitting(true);
+      
+      try {
+        const result = await saveEmail(email);
+        
+        if (result.success) {
+          toast({
+            title: "Thank you!",
+            description: "We'll notify you when CaboWabo launches.",
+          });
+          setEmail("");
+          setIsDialogOpen(false);
+        } else {
+          toast({
+            title: "Oops!",
+            description: "Something went wrong. Please try again.",
+            variant: "destructive",
+          });
+        }
+      } catch (error) {
+        toast({
+          title: "Oops!",
+          description: "Something went wrong. Please try again.",
+          variant: "destructive",
+        });
+      } finally {
+        setIsSubmitting(false);
+      }
     }
   };
   return (
@@ -99,10 +123,14 @@ const HeroSection = () => {
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
                 required
-                className="w-full"
+                disabled={isSubmitting}
               />
-              <Button type="submit" className="w-full">
-                Notify Me
+              <Button 
+                type="submit" 
+                className="w-full" 
+                disabled={isSubmitting}
+              >
+                {isSubmitting ? "Submitting..." : "Notify Me When Available"}
               </Button>
             </form>
           </div>
